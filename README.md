@@ -1,5 +1,17 @@
 # LW5-Grad-CAM-code
 ## Google Colab: https://colab.research.google.com/drive/1q6a19bhUIJYEE5TkbgjSl7pHMn11Am8Y?usp=sharing
+## Google Drive: https://drive.google.com/drive/folders/1hIYYSTh3beTMG-51eUyUxH425qakfQLH?usp=sharing
+
+## Part 12: Model Performance Comparison Table
+| Model - Sample | Train Accuracy | Train Loss | Test Accuracy | Test Loss | Precision | Recall | F1-score | ROC | AUC |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Pre-trained Model 1 (ResNet50)** | 0.773159 | 0.800938 | 0.801770 | 0.735200 | 0.798849 | 0.794584 | 0.793827 | Generated | 0.983749 |
+| **Pre-trained Model 2 (EfficientNetB0)** | 0.711475 | 1.033368 | 0.774336 | 0.887492 | 0.779982 | 0.767327 | 0.771029 | Generated | 0.978738 |
+| **Pre-trained Model 3 (MobileNetV2)** | 0.686270 | 1.059168 | 0.750443 | 0.957094 | 0.746088 | 0.744426 | 0.741607 | Generated | 0.972930 |
+| **Model from Teachable Machine** | 0.636524 | 1.212481 | 0.526549 | 1.533006 | 0.526301 | 0.514052 | 0.510291 | Generated | 0.896262 |
+| **1st Model** | 0.999558 | 0.005695 | 0.592920 | 2.905696 | 0.590421 | 0.585907 | 0.582596 | Generated | 0.923034 |
+| **2nd Model Enhancement** | 0.637409 | 1.152285 | 0.536283 | 1.501993 | 0.546942 | 0.530902 | 0.521282 | Generated | 0.927447 |
+| **3rd Model - The Good Model** | 0.894097 | 0.381043 | 0.776991 | 0.914633 | 0.779187 | 0.777767 | 0.773807 | Generated | 0.977118 |
 
 A. Model Performance
 
